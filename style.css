@@ -1,0 +1,31 @@
+* {
+  font-size: 2rem;
+}
+.container {
+  max-width: 500px;
+  display: grid;
+  direction: rtl;
+  grid-template-columns: repeat(5, 1fr);
+  aspect-ratio: 1;
+}
+.Display {
+  overflow: scroll;
+  margin: 1px;
+  padding: 8px 16px;
+  direction: ltr;
+  background-color: gray;
+  color: aliceblue;
+  grid-column: span 5;
+  box-shadow: inset 0px 0px 4px 0px #000000;
+}
+
+#equals {
+  box-shadow: inset 0px 0px 4px 0px #000000;
+  grid-row: span 2;
+  background-color: burlywood;
+}
+.operator {
+  background-color: cornflowerblue;
+  border: 1px solid black;
+  border-radius: 4px;
+}
